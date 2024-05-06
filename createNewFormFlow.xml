@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="nopeEcommerceFlow" allow-return-values="true" verbose="1" >
+     <test name="nopeEcommerceFlow">
+     <classes>
+     <class name="tests.BaseTest"/>
+
+          <class name="tests.SigninTest"/>
+          <class name="tests.DashBoardTest"/>
+          <class name="tests.FormTest"/>
+          <class name="tests.CreatNewFormTest"/>
+
+     </classes>
+     </test>
+</suite>
